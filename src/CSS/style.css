@@ -13,6 +13,7 @@ h1, h2 {
     flex-direction: column;
     margin: 40px;
     padding: 15px;
+    font-size: 1.5rem;
 }
 
 p {
@@ -25,7 +26,6 @@ p {
 }
 
 .copies {
-    
         display: flex;
         flex-direction: column;
         border: solid 5px;
