@@ -15,9 +15,9 @@ cloned.forEach(element => element.addEventListener('click', (evt) => {
 
 const Delete = document.querySelector('button')
 
-function deleteClicks() {
+function deleteCloned() {
     while (copy.lastChild) {
         copy.removeChild(copy.lastChild)}
 }
 
-Delete.addEventListener('click', deleteClicks)
+Delete.addEventListener('click', deleteCloned)
