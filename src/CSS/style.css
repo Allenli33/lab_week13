@@ -4,11 +4,35 @@ body {
 
 h1, h2 {
     color: #132F3A;
+    display: flex;
+    justify-content: center;
 }
 
-.original-container{
+.originals {
     display: flex;
     flex-direction: column;
     margin: 40px;
     padding: 15px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: red;
+    max-width: 5%;
+    font-size: 2rem;
+    padding: 0 700px;
+}
+
+.copies {
+    
+        display: flex;
+        flex-direction: column;
+        border: solid 5px;
+        margin: 40px;
+}
+
+button {
+    color: blue;
+    font-size: 2rem;
 }
