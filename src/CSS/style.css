@@ -1,0 +1,14 @@
+body {
+    background-color: #EEF2F3;
+}
+
+h1, h2 {
+    color: #132F3A;
+}
+
+.original-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 15px;
+}
